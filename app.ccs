@@ -1,0 +1,195 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+
+article,figcaption,figure,footer,header,hgroup,nav,section{
+display: block;}
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+
+article,figcaption,figure,footer,header,hgroup,nav,section{
+display: block;}
+
+
+
+@font-face {
+    font-family: 'caviar_dreamsbold';
+    src: url('../fonts/caviar_dreams_bold-webfont.woff2') format('woff2'),
+         url('../fonts/caviar_dreams_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+
+	  background: #212121 url(../img/exogenfondo..jpg);
+	  color:#fff;
+	  font-family:"caviar_dreamsbold",Helvetica,Verdana;
+	  font-size: 1em;
+
+}
+
+  header,footer{
+
+	color:#040000;
+	background:#D6D6D7;
+	border-radius:0.5em;
+    margin:1em auto;
+    max-width:69%;
+	padding:0.25em;
+	text-align:center;
+	border:0.3em solid #2D01A6;
+	width:910px;
+	height:160px;
+ }
+
+ footer{
+	width:900px;
+	height:40px;
+ }
+
+
+div#titulo{
+
+	display: inline-block;
+	margin:auto;
+	color:#212121;
+	width:200px;
+	/*background:#F60404; /* */
+
+    padding:0.25em;
+}
+
+ div#frase{
+
+	float:right;
+	margin:auto;
+	color:#212121;
+	width:600px;
+	/*background:#212121; */
+	border-radius:0.5em;
+    margin:4em auto;
+    padding:0.25em;
+
+ }
+
+
+ div#contenedor{
+	 margin:auto;
+	 width:920px;
+	 height:870px;
+
+	/* background-color:red;     /* color de fondo*/
+ }
+
+
+div#tuespacio{
+
+	 margin:auto; /*para que quede centrado en la pagina*/
+	 width:920px; /*margenes laterales*/
+	 height:350px; /*margen de abajo*/
+	 background:#D6D6D7; /*color de fondo*/
+	 border-radius:0.5em;
+	 text-align:center;
+     border:0.3em solid #2D01A6;
+     color:#212121;
+
+}
+
+
+div#busqueda1{
+
+	 margin:1em auto; /*para que quede centrado en la pagina*/
+	 width:920px; /*margenes laterales*/
+	 height:500px; /*margen de abajo*/
+	 background:#D6D6D7; /*color de fondo*/
+	 border-radius:0.5em;
+	 text-align:center;
+     border:0.3em solid #2D01A6;
+     color:#212121;
+
+}
+
+
+  a{
+	color:#05028E;
+	font-weight:bold;
+	text-decoration:none;
+	}
+
+	a:hover{
+	 color:#6DF802;
+	}
+
+
+figcaption{
+	 font-size: 0.85em;
+     padding: 0.25em;
+	 text-align:center;
+}
+
+
+img{
+     max-width:90%;
+ }
+
+
+ section#titulo,h2,h1{
+	text-align:center;
+	color:#212121;
+
+	}
+
+
+
+nav,h1{
+
+      display: inline-block;
+      max-width:300%;
+	  vertical-align:middle;
+
+}
+
+
+  nav ul{
+	 list-style:none;
+	  }
+
+
+ nav li {
+	padding:0.1em;
+	vertical-align:middle;
+
+ }
+
+ nav a{
+	background:#D6D6D7;/*fondo dentro del menu*/
+	border:0.1em solid #57abb8;/*darle borde al menu y color*/
+	border-radius:0.25em; /*para que las puntas del menu sean redondas*/
+	color:#212121;/*color de las letras dentro del menu*/
+	display: block;
+	font-family:"caviar_dreamsbold",Helvetica,Verdana;
+	font-size:1.4em;
+	padding: 0.1em;/*para que las letras se ajusten dentro de las cajas del menu*/
+	-ms-transition:all 0.5s ease-in;
+	-moz-transition:all 0.5s ease-in;
+	-o-transition:all 0.5s ease-in;
+	-webkit-transition:all 0.5s ease-in;
+	 transition:all 0.5s ease-in; /*el trancicion es para un efecto de retardo en la tranciciones de cambio de las animaciones vdo5 36:26*/
+
+ }
+
+ nav a:hover{             /*efectos de la caja de menu al momento de cambiar vdo5 33:03*/
+	background:#2D01A6;
+	border:0.1em dashed #212121;
+	border-radius:0.9em 0em 0.9em 0em;
+	color:#D6D6D7;
+
+ }
